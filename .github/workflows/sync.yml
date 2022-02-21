@@ -1,0 +1,52 @@
+# workflow name
+name: sync
+
+# master branch on push, auto run
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [14.x]
+    steps:
+      # check it to your workflow can access it
+      # from: https://github.com/actions/checkout
+      - name: 检查master分支
+        uses: actions/checkout@master
+
+      - name: Sync to Gitee
+        uses: wearerequired/git-mirror-action@master
+        env:
+          # 注意在 Settings->Secrets 配置 DEPLOY_KEY
+          SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_KEY }}
+        with:
+          # 注意替换为你的 GitHub 源仓库地址
+          source-repo: git@github.com:kkfive/kkfive.github.io.git
+          # 注意替换为你的 Gitee 目标仓库地址
+          destination-repo: git@gitee.com:kkfive/kkfive.git
+
+      - name: Sync to Bitbucket
+        uses: wearerequired/git-mirror-action@master
+        env:
+          # 注意在 Settings->Secrets 配置 DEPLOY_KEY
+          SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_KEY }}
+        with:
+          # 注意替换为你的 GitHub 源仓库地址
+          source-repo: git@github.com:kkfive/kkfive.github.io.git
+          # 注意替换为你的 Gitee 目标仓库地址
+          destination-repo: git@bitbucket.org:DreamyTZK/www.antmoe.com.git
+
+      - name: 自动部署gitee
+        uses: yanglbme/gitee-pages-action@master
+        with:
+          # 注意替换为你的 Gitee 用户名
+          gitee-username: kkfive
+          # 注意在 Settings->Secrets 配置 GITEE_PASSWORD
+          gitee-password: ${{ secrets.GITEE_PASSWORD }}
+          # 注意替换为你的 Gitee 仓库
+          gitee-repo: kkfive/kkfive
