@@ -18,6 +18,8 @@ jobs:
       # from: https://github.com/actions/checkout
       - name: 检查master分支
         uses: actions/checkout@master
+        with:
+          fetch-depth: 0
 
       - name: Sync to Gitee
         uses: wearerequired/git-mirror-action@master
@@ -29,18 +31,7 @@ jobs:
           source-repo: git@github.com:kkfive/kkfive.github.io.git
           # 注意替换为你的 Gitee 目标仓库地址
           destination-repo: git@gitee.com:kkfive/kkfive.git
-
-      - name: Sync to Bitbucket
-        uses: wearerequired/git-mirror-action@master
-        env:
-          # 注意在 Settings->Secrets 配置 DEPLOY_KEY
-          SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_KEY }}
-        with:
-          # 注意替换为你的 GitHub 源仓库地址
-          source-repo: git@github.com:kkfive/kkfive.github.io.git
-          # 注意替换为你的 Gitee 目标仓库地址
-          destination-repo: git@bitbucket.org:DreamyTZK/kkfive.bitbucket.io.git
-
+      
       - name: 自动部署gitee
         uses: yanglbme/gitee-pages-action@master
         with:
@@ -50,3 +41,26 @@ jobs:
           gitee-password: ${{ secrets.GITEE_PASSWORD }}
           # 注意替换为你的 Gitee 仓库
           gitee-repo: kkfive/kkfive
+          
+      - name: Sync to Bitbucket
+        uses: wearerequired/git-mirror-action@master
+        env:
+          # 注意在 Settings->Secrets 配置 DEPLOY_KEY
+          SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_KEY }}
+        with:
+          # 注意替换为你的 GitHub 源仓库地址
+          source-repo: git@github.com:kkfive/kkfive.github.io.git
+          # 注意替换为你的 bitbucket 目标仓库地址
+          destination-repo: git@bitbucket.org:DreamyTZK/www.antmoe.com.git
+      
+      - name: Sync to GitLab
+        uses: wearerequired/git-mirror-action@master
+        env:
+          # 注意在 Settings->Secrets 配置 DEPLOY_KEY
+          SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_KEY }}
+        with:
+          # 注意替换为你的 GitHub 源仓库地址
+          source-repo: git@github.com:kkfive/kkfive.github.io.git
+          # 注意替换为你的 gitlab 目标仓库地址
+          destination-repo: git@gitlab.com:DreamyTZK/www.antmoe.com.git
+
