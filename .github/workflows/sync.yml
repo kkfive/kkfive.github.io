@@ -39,7 +39,7 @@ jobs:
           # 注意替换为你的 GitHub 源仓库地址
           source-repo: git@github.com:kkfive/kkfive.github.io.git
           # 注意替换为你的 Gitee 目标仓库地址
-          destination-repo: git@bitbucket.org:DreamyTZK/www.antmoe.com.git
+          destination-repo: git@bitbucket.org:DreamyTZK/kkfive.bitbucket.io.git
 
       - name: 自动部署gitee
         uses: yanglbme/gitee-pages-action@master
