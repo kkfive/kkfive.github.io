@@ -1,0 +1,12 @@
+{
+  "name": "public",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "cross-env": "^7.0.0",
+    "slimbot": "^5.1.0",
+    "is-image-url": "^1.1.8"
+  }
+}
