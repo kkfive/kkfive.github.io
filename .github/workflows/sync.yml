@@ -31,7 +31,13 @@ jobs:
           source-repo: git@github.com:kkfive/kkfive.github.io.git
           # 注意替换为你的 Gitee 目标仓库地址
           destination-repo: git@gitee.com:kkfive/kkfive.git
-      
+
+      - name: Sync to Telegram
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+        run: |
+          yarn install
+          node sync-message.js
       - name: 自动部署gitee
         uses: yanglbme/gitee-pages-action@master
         with:
@@ -64,9 +70,3 @@ jobs:
 #           # 注意替换为你的 gitlab 目标仓库地址
 #           destination-repo: git@gitlab.com:DreamyTZK/www.antmoe.com.git
 
-      - name: Sync to Telegram
-        env:
-          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
-        run: |
-          yarn install
-          node sync-message.js
