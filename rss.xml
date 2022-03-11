@@ -15,8 +15,33 @@
     <atom:link href="https://www.antmoe.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>一个收藏回忆与分享技术的地方！</description>
-    <pubDate>Fri, 11 Mar 2022 15:45:18 GMT</pubDate>
+    <pubDate>Fri, 11 Mar 2022 16:05:39 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>我的Hexo“自动化”之道</title>
+      <link>https://www.antmoe.com/posts/41164f83/</link>
+      <guid>https://www.antmoe.com/posts/41164f83/</guid>
+      <pubDate>Fri, 11 Mar 2022 13:16:00 GMT</pubDate>
+      
+      <description>Hexo自动化实现，整体流程不输动态博客。</description>
+      
+      
+      
+      <content:encoded><![CDATA[<h2 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h2><p>这篇文章一直想咕，直到现在才开始咕咕咕。</p><p>此文只是简单想简单介绍下<a href="https://www.antmoe.com/">我的个人博客</a>为什么最终选择了 Hexo 以及怎么“自动化”部署 Hexo 博客。</p><h2 id="为何选择-hexo"><a class="markdownIt-Anchor" href="#为何选择-hexo"></a> 为何选择 Hexo</h2><p>说到个人博客，业界老大哥<a href="https://wordpress.org/">wordpress</a>和<a href="https://github.com/typecho/typecho">typecho</a>必须要提一下。因为当初选择博客时我自然也尝试了这两款，但是的选择最终选择了 typecho，至于原因其实很简单，只是想要一个 markdown 简单的写作平台。</p><p>成功在学生机上部署 typecho 后为了“花里胡哨”，又入手了<a href="https://www.ihewro.com/archives/489/">handsome</a>主题。于是小康的第一个对外博客就有了：<a href="https://life.antmoe.com/%EF%BC%88%E6%AD%A4%E7%AB%99%E5%8E%9F%E6%95%B0%E6%8D%AE%E5%B7%B2%E4%B8%A2%E5%A4%B1%E3%80%82%EF%BC%89">https://life.antmoe.com/（此站原数据已丢失。）</a></p><p>虽然 typecho 很便捷，但是对我而言，其实并不比 Hexo 便捷多少。首先谈谈我的个人习惯</p><ul><li><strong>习惯本地写作</strong></li><li>markdown，讨厌富文本</li><li>以技术类型博文为主</li><li>几乎没有非公开类型的博文</li></ul><p>综上几点习惯，当初使用 typecho 时发送姿势：本地 typora 写好后复制到 typecho 后台，然后发表。</p><p>而 Hexo 就比较简单了，本地写好后 git 三连即可推送进行自动部署。</p><p>而 markdown 写作感受个人观点：typora yyds。</p><p>至于隐私类博文（想要加密）受职业影响 应该是不会有这种类型的博文的。</p><p>因此为了更好的写作体验，为了不改变习惯 最终选择了 Hexo。</p><h2 id="hexo-的自动化"><a class="markdownIt-Anchor" href="#hexo-的自动化"></a> Hexo 的自动化</h2><p>首先看一张流程图</p><p><img src="https://file.acs.pw/picGo/2022/03/11/20220311225614.png" alt="image-20220311225614551" /></p><ol><li>推送到 Coding 后触发持续集成将代码推送到 GitHub 仓库（源码）</li><li>GitHub 仓库推送代码后触发 Actions，进行构建静态页面</li><li>构建完静态页面后<ul><li>推送产物到<a href="https://github.com/kkfive/kkfive.github.io">GitHub Pages 仓库</a></li><li>清除又拍云回源存储桶并刷新全站缓存</li></ul></li><li>GitHub Pages 收到代码推送后进行<a href="https://github.com/kkfive/kkfive.github.io/actions">Actions</a><ul><li>同步静态页面到 Gitee、Bitbucket、Gitlab 等平台</li><li>进行 Gitee 部署</li><li>将新增/更新文章发送到<a href="https://t.me/kkfiveblog">Telegram 频道</a></li></ul></li></ol><p>以上便是<a href="https://www.antmoe.com">我的博客</a>自动化流程，个人认为完全不输动态博客。</p><p>虽然动态博客可以随时打开网页输入密码进行撰文，但是我个人是不会在手机进行撰文的。</p><p>因此只要撰文则一定使用的是 pc 端，那么对于在外时，下载一个 typora 难度也不大，或者</p><blockquote><p>之所以第一步推送到 Coding 的目的</p><ul><li>首先是受网络影响，直接推送到 GitHub 有时会推送不上</li><li>个人 GitHub 号曾经被封过一次，过渡阶段使用了 Coding。现在为了防止再次被封而导致源码丢失，因此放在国内的 Coding。</li></ul></blockquote>]]></content:encoded>
+      
+      
+      <category domain="https://www.antmoe.com/categories/Hexo/">Hexo</category>
+      
+      <category domain="https://www.antmoe.com/categories/Hexo/%E4%BC%98%E9%9B%85%E9%83%A8%E7%BD%B2/">优雅部署</category>
+      
+      
+      <category domain="https://www.antmoe.com/tags/Hexo/">Hexo</category>
+      
+      
+      <comments>https://www.antmoe.com/posts/41164f83/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>前端Coder手中的Docker</title>
@@ -308,37 +333,6 @@
       
       
       <comments>https://www.antmoe.com/posts/7f741bc2/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>给bber换个皮肤</title>
-      <link>https://www.antmoe.com/posts/7ec820ee/</link>
-      <guid>https://www.antmoe.com/posts/7ec820ee/</guid>
-      <pubDate>Wed, 24 Mar 2021 02:58:00 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description></description>
-          
-        
-      
-      
-      
-      <content:encoded><![CDATA[<h2 id="简单介绍"><a class="markdownIt-Anchor" href="#简单介绍"></a> 简单介绍</h2><div class="note danger modern"><p>此项目只是一个前端皮肤，其功能受限于后端云函数。因此我已经将哔哔迁移<a href="https://www.antmoe.com/speak/">speak</a>。此皮肤项目不在维护！！！</p></div><p>此项目仅仅作为<a href="https://immmmm.com/bb-by-wechat-pro/">哔哔点啥</a>数据的前端页面展示，并不会修改及影响任何关于云函数的内容。</p><p><em>注：前端解析不在使用markdown语法解析，但支持<code>![]()</code> 语法的图片。</em></p><p>示例页面：<a target="_blank" href="https://www.antmoe.com/bb/"><span>小康的bb页面</span></a></p><p><img src="https://file.acs.pw/picGo/2021/3/24/9c756e25681681755e2599dd7c0cd009.png" alt="image-20210324110323140" /></p><blockquote><p>样式参考：<a href="https://tomotoes.com/blog/weibo/">微博</a></p></blockquote><h2 id="快速开始"><a class="markdownIt-Anchor" href="#快速开始"></a> 快速开始</h2><p>请先确保按照其教程成功部署后，在你的markdown文件写入如下内容即可。</p><pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">'</span>speak-bber<span class="token punctuation">'</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>speak</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text/javascript<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://cdn.jsdelivr.net/npm/ispeak-bber@1.1.1-beta/ispeak-bber.min.js<span class="token punctuation">"</span></span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>utf-8<span class="token punctuation">"</span></span> <span class="token punctuation">></span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">ispeakBber    <span class="token punctuation">.</span><span class="token function">init</span><span class="token punctuation">(</span><span class="token punctuation">&#123;</span>      el<span class="token operator">:</span> <span class="token string">'#speak-bber'</span><span class="token punctuation">,</span>      name<span class="token operator">:</span> <span class="token string">'DreamyTZK 🦄'</span><span class="token punctuation">,</span> <span class="token comment">// 显示的昵称</span>      envId<span class="token operator">:</span> <span class="token string">'腾讯云开发环境id'</span><span class="token punctuation">,</span> <span class="token comment">// 环境id</span>      region<span class="token operator">:</span> <span class="token string">'ap-shanghai'</span><span class="token punctuation">,</span> <span class="token comment">// 腾讯云地址，默认为上海</span>      limit<span class="token operator">:</span> <span class="token number">10</span><span class="token punctuation">,</span> <span class="token comment">// 每次加载的条数，默认为5</span>      avatar<span class="token operator">:</span> <span class="token string">'https://cdn.jsdelivr.net/npm/kang-static@latest/avatar.jpg'</span><span class="token punctuation">,</span>      fromcolor<span class="token operator">:</span><span class="token string">'rgb(245, 150, 170)'</span>    <span class="token punctuation">&#125;</span><span class="token punctuation">)</span>    <span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>      console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'ispeak 加载完成'</span><span class="token punctuation">)</span>    <span class="token punctuation">&#125;</span><span class="token punctuation">)</span></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><blockquote><p>按照注释需求填写对应的信息即可。</p></blockquote><h2 id="发布哔哔的新方式"><a class="markdownIt-Anchor" href="#发布哔哔的新方式"></a> 发布哔哔的新方式</h2><blockquote><p>此插件仅适用于chrome内核的浏览器。</p></blockquote><p>发布哔哔的方式很简单，即调用接口请求数据即可。作者提供了一种微信发布哔哔的方式，参考<a href="https://blog.zhheo.com/p/27be0e44.html">张洪</a>的教程又解锁了通过<strong>快捷指令</strong>、<strong>Utools</strong>发布哔哔的方式。但这三种方式对我来说均有些不足，因此参考<a href="https://www.ihewro.com/archives/489/">handsome</a>主题附赠的浏览器插件源码，改装成了一个发送哔哔的发射台。</p><p><img src="https://file.acs.pw/picGo/2021/3/24/a10b5f149e45b97d3f429bd291511c88.png" alt="image-20210324111051857" /></p><ul><li><p>接口地址：也就是云函数的接口地址</p><p>示例：<code>https://环境id.ap-shanghai.app.tcloudbase.com/bber</code>，参考木木的教程进行获取。</p></li><li><p>key</p><p>自定义的key</p></li><li><p>7bu图床token</p><p>插件允许<strong>ctrl+v</strong>、<strong>拖拽</strong>方式进行上传图片到<a href="https://7bu.top/">7bu图床</a>，因此你可以设置token，如果设置会将图片上传到自己的账户下，不设置则会匿名上传。</p><p>token获取参考：<a href="https://7bu.top/index/api.html">https://7bu.top/index/api.html</a></p></li><li><p>from</p><p>对应接口from字段，原意为哔哔来源，但我更倾向于标签的定义。</p></li></ul><h2 id="浏览器如何安装插件"><a class="markdownIt-Anchor" href="#浏览器如何安装插件"></a> 浏览器如何安装插件</h2><ol><li>使用Edge浏览器安装<a href="https://microsoftedge.microsoft.com/addons/detail/ispeakbber%E6%97%B6%E5%85%89%E6%9C%BA/nbojopnokkmdbmnneoagianhafgmohfc">ispeak-bber</a>插件</li><li>填写对应字段，然后发送哔哔</li></ol><h2 id="添加首页轮播"><a class="markdownIt-Anchor" href="#添加首页轮播"></a> 添加首页轮播</h2><p>添加首页轮播借助了<a href="https://butterfly.js.org/posts/ea33ab97/">butterfly主题自定义组件</a>的功能实现，通过在自定义组件处加载JavaScript生成首页的轮播展示。示例代码如下：</p><pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token punctuation">-</span> <span class="token key atrule">class_name</span><span class="token punctuation">:</span> latestBB  <span class="token key atrule">id_name</span><span class="token punctuation">:</span>  <span class="token key atrule">name</span><span class="token punctuation">:</span> 最新吐槽  <span class="token key atrule">icon</span><span class="token punctuation">:</span> fas fa<span class="token punctuation">-</span>bolt  <span class="token key atrule">order</span><span class="token punctuation">:</span> <span class="token number">2</span>  <span class="token key atrule">html</span><span class="token punctuation">:</span> <span class="token punctuation">|</span><span class="token scalar string">    &lt;div class="swiper-container swiper-container-aside">      &lt;div class="swiper-wrapper swiper-weapper-aside">&lt;/div>    &lt;/div>    &lt;a class="bb-btn button--animated" href="/bb/" title="查看全部">&lt;i class="far fa-hand-point-right fa-fw">&lt;/i> 查看更多 &lt;/a>    &lt;script>      window.kkBBConfig = &#123;        limit: 9,        blog:'/bb/',        api_url:          'https://636f-comment-5gj5t55m7efcd73d-1251136071.tcb.qcloud.la/json/bber.json'      &#125;    &lt;/script>    &lt;script src="https://cdn.jsdelivr.net/npm/butterfly-bber-swiper/dist/index.min.js">&lt;/script></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><ul><li><p><code>latestBB</code></p><p>容器class名，请保持<code>latestBB</code>不要更改</p></li><li><p><code>html</code></p><p>必须包含的内容如下：</p><pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token punctuation">-</span> <span class="token key atrule">class_name</span><span class="token punctuation">:</span> latestBB  <span class="token key atrule">html</span><span class="token punctuation">:</span> <span class="token punctuation">|</span><span class="token scalar string">    &lt;div class="swiper-container swiper-container-aside">      &lt;div class="swiper-wrapper swiper-weapper-aside">&lt;/div>    &lt;/div>    &lt;script>      window.kkBBConfig = &#123;        // 如果使用API 那么此字段表示读取的数量        limit: 9,        // 点击后跳转的链接        blog:'/bb/',        // api地址，可以是json文件地址 也可以是api地址        api_url:          'https://636f-comment-5gj5t55m7efcd73d-1251136071.tcb.qcloud.la/json/bber.json'      &#125;    &lt;/script>    &lt;script src="https://cdn.jsdelivr.net/npm/butterfly-bber-swiper/dist/index.min.js">&lt;/script></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>其他可根据自己的需求今天添加。</p></li><li><p>其他</p><p>其他未提及字段非本项目必须字段，因此不做解释，可参考官方文档：<a href="https://butterfly.js.org/posts/ea33ab97/">https://butterfly.js.org/posts/ea33ab97/</a></p></li></ul>]]></content:encoded>
-      
-      
-      <category domain="https://www.antmoe.com/categories/Project/">Project</category>
-      
-      <category domain="https://www.antmoe.com/categories/Project/Speak-bber/">Speak-bber</category>
-      
-      
-      <category domain="https://www.antmoe.com/tags/bber/">bber</category>
-      
-      
-      <comments>https://www.antmoe.com/posts/7ec820ee/#disqus_thread</comments>
       
     </item>
     
