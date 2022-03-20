@@ -32,9 +32,6 @@ jobs:
           REGION: ${{ secrets.COS_REGION }}
         run: coscmd config -a $SECRET_ID -s $SECRET_KEY -b $BUCKET -r $REGION
       
-      - name: Upload
-        run: coscmd upload -rfs --delete ./ / --ignore "./.git/*"
-      
       - name: Sync to Gitee
         uses: wearerequired/git-mirror-action@master
         env:
@@ -46,7 +43,6 @@ jobs:
           # 注意替换为你的 Gitee 目标仓库地址
           destination-repo: git@gitee.com:kkfive/kkfive.git
 
-
       - name: 自动部署gitee
         uses: yanglbme/gitee-pages-action@master
         with:
@@ -56,7 +52,10 @@ jobs:
           gitee-password: ${{ secrets.GITEE_PASSWORD }}
           # 注意替换为你的 Gitee 仓库
           gitee-repo: kkfive/kkfive
-          
+      
+      - name: 上传到cos
+        run: coscmd upload -rfs --delete ./ / --ignore "./.git/*"
+      
       - name: Sync to Bitbucket
         uses: wearerequired/git-mirror-action@master
         env:
