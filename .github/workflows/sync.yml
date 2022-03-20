@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [14.x]
+        node-version: [16.x]
     steps:
       # check it to your workflow can access it
       # from: https://github.com/actions/checkout
@@ -20,17 +20,20 @@ jobs:
         uses: actions/checkout@master
         with:
           fetch-depth: 0
+    
+      - name: Install coscmd
+        run: sudo pip install coscmd
       
-      - name: 同步到cos
-        uses: TencentCloud/cos-action@v1
-        with:
-          secret_id: ${{ secrets.TENCENT_CLOUD_SECRET_ID }}
-          secret_key: ${{ secrets.TENCENT_CLOUD_SECRET_KEY }}
-          cos_bucket: ${{ secrets.COS_BUCKET }}
-          cos_region: ${{ secrets.COS_REGION }}
-          local_path: ./
-          remote_path: /
-          clean: true
+      - name: Configure coscmd
+        env:
+          SECRET_ID: ${{ secrets.TENCENT_CLOUD_SECRET_ID }}
+          SECRET_KEY: ${{ secrets.TENCENT_CLOUD_SECRET_KEY }}
+          BUCKET: ${{ secrets.COS_BUCKET }}
+          REGION: ${{ secrets.COS_REGION }}
+        run: coscmd config -a $SECRET_ID -s $SECRET_KEY -b $BUCKET -r $REGION
+      
+      - name: Upload
+        run: coscmd upload -rfs --delete ./ / --ignore "./.git/*"
       
       - name: Sync to Gitee
         uses: wearerequired/git-mirror-action@master
