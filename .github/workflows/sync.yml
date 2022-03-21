@@ -101,9 +101,10 @@ jobs:
 #           # 注意替换为你的 gitlab 目标仓库地址
 #           destination-repo: git@gitlab.com:DreamyTZK/www.antmoe.com.git
 
-      - name: Sync to Telegram
+      - name: Update Cache And Sync to Telegram
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
         run: |
           yarn install
+          node clearCache.js
           node sync-message.js
