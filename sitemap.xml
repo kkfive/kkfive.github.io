@@ -2,7 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.antmoe.com/tags/index.html</loc>
+    
+    <lastmod>2022-03-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.antmoe.com/update/index.html</loc>
+    
+    <lastmod>2022-03-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.antmoe.com/manifest.json</loc>
+    
+    <lastmod>2022-03-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.antmoe.com/bb/index.html</loc>
+    
+    <lastmod>2022-03-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.antmoe.com/categories/index.html</loc>
+    
+    <lastmod>2022-03-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.antmoe.com/contact/index.html</loc>
     
     <lastmod>2022-03-21</lastmod>
     
@@ -57,24 +102,6 @@
   
   <url>
     <loc>https://www.antmoe.com/speak/index.html</loc>
-    
-    <lastmod>2022-03-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.antmoe.com/tags/index.html</loc>
-    
-    <lastmod>2022-03-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.antmoe.com/update/index.html</loc>
     
     <lastmod>2022-03-21</lastmod>
     
@@ -543,33 +570,6 @@
   
   <url>
     <loc>https://www.antmoe.com/background/index.html</loc>
-    
-    <lastmod>2022-03-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.antmoe.com/bb/index.html</loc>
-    
-    <lastmod>2022-03-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.antmoe.com/categories/index.html</loc>
-    
-    <lastmod>2022-03-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.antmoe.com/contact/index.html</loc>
     
     <lastmod>2022-03-21</lastmod>
     
