@@ -1,3 +1,4 @@
 ## 更新日志
 
-1. 静态资源同步到 oss、cos、upyun
+1. 抽离 clearCache 脚本
+2. 升级依赖
