@@ -31,6 +31,15 @@ jobs:
           BUCKET: ${{ secrets.COS_BUCKET }}
           REGION: ${{ secrets.COS_REGION }}
         run: coscmd config -a $SECRET_ID -s $SECRET_KEY -b $BUCKET -r $REGION
+      - name: Upyun login
+        uses: ffx0s/upx-actions@master
+        with:
+          bucket: ${{secrets.UPYUN_BUCKET}}
+          operator: ${{ secrets.UPYUN_OPERATOR }}
+          password: ${{ secrets.UPYUN_PASSWORD }}
+
+      - name: 上传到又拍云
+        run: upx sync ./ / --delete
       
       - name: Sync to Gitee
         uses: wearerequired/git-mirror-action@master
