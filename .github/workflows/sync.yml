@@ -60,8 +60,8 @@ jobs:
           # 注意替换为你的 Gitee 仓库
           gitee-repo: kkfive/kkfive
       
-      - name: 上传到cos
-        run: coscmd upload -rfs --delete ./ / --ignore "./.git/*"
+#       - name: 上传到cos
+#         run: coscmd upload -rfs --delete ./ / --ignore "./.git/*"
       
       - name: 上传到OSS
         uses: fangbinwei/aliyun-oss-website-action@v1
@@ -115,5 +115,5 @@ jobs:
       - name: Delete workflow runs
         uses: Mattraks/delete-workflow-runs@v2
         with:
-          retain_days: 3
+          retain_days: 1
           keep_minimum_runs: 1
