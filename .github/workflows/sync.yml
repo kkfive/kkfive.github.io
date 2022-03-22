@@ -104,8 +104,8 @@ jobs:
       - name: Update Cache And Sync to Telegram
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
-          TENCENT_SECRET_ID: ${{ secrets.TENCENT_CLOUD_SECRET_ID }}
-          TENCENT_SECRET_KEY: ${{ secrets.TENCENT_CLOUD_SECRET_KEY }}
+          TENCENT_SECRET_ID: ${{ secrets.TENCENT_SECRET_ID }}
+          TENCENT_SECRET_KEY: ${{ secrets.TENCENT_SECRET_KEY }}
           UPYUN_TOKEN: ${{ secrets.UPYUN_TOKEN }}
         run: |
           yarn install
