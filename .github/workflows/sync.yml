@@ -104,7 +104,16 @@ jobs:
       - name: Update Cache And Sync to Telegram
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          TENCENT_CLOUD_SECRET_ID: ${{ secrets.TENCENT_CLOUD_SECRET_ID }}
+          TENCENT_SECRET_KEY: ${{ secrets.TENCENT_SECRET_KEY }}
+          UPYUN_TOKEN: ${{ secrets.UPYUN_TOKEN }}
         run: |
           yarn install
           node clearCache.js
           node sync-message.js
+      
+      - name: Delete workflow runs
+        uses: Mattraks/delete-workflow-runs@v2
+        with:
+          retain_days: 3
+          keep_minimum_runs: 1
