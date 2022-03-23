@@ -63,16 +63,16 @@ jobs:
 #       - name: 上传到cos
 #         run: coscmd upload -rfs --delete ./ / --ignore "./.git/*"
       
-      - name: 上传到OSS
-        uses: fangbinwei/aliyun-oss-website-action@v1
-        with:
-            accessKeyId: ${{ secrets.ALI_ACCESS_KEY_ID }}
-            accessKeySecret: ${{ secrets.ALI_ACCESS_KEY_SECRET }}
-            bucket: ${{ secrets.ALI_BUCKET }}
-            endpoint: ${{ secrets.ALI_ENDPOINT }}
-            folder: "./"
-            exclude: |
-              .git/
+#       - name: 上传到OSS
+#         uses: fangbinwei/aliyun-oss-website-action@v1
+#         with:
+#             accessKeyId: ${{ secrets.ALI_ACCESS_KEY_ID }}
+#             accessKeySecret: ${{ secrets.ALI_ACCESS_KEY_SECRET }}
+#             bucket: ${{ secrets.ALI_BUCKET }}
+#             endpoint: ${{ secrets.ALI_ENDPOINT }}
+#             folder: "./"
+#             exclude: |
+#               .git/
       
       - name: Sync to Bitbucket
         uses: wearerequired/git-mirror-action@master
