@@ -30,8 +30,8 @@
         "优雅魔改系列",
         "功能增强",
         "主题手册",
-        "评论系统",
         "Valine评论",
+        "评论系统",
         "Project",
         "AppStore",
         "Friend",
@@ -132,11 +132,11 @@
           },
           {
             "value": 2,
-            "path": "categories/Hexo/评论系统/"
+            "path": "categories/Hexo/Valine评论/"
           },
           {
             "value": 2,
-            "path": "categories/Hexo/Valine评论/"
+            "path": "categories/Hexo/评论系统/"
           },
           {
             "value": 7,
@@ -354,11 +354,6 @@
             "path": "tags/gulp/"
           },
           {
-            "name": "valine表情",
-            "value": 1,
-            "path": "tags/valine表情/"
-          },
-          {
             "name": "valine-admin",
             "value": 1,
             "path": "tags/valine-admin/"
@@ -402,6 +397,11 @@
             "name": "蘑菇丁",
             "value": 1,
             "path": "tags/蘑菇丁/"
+          },
+          {
+            "name": "valine表情",
+            "value": 1,
+            "path": "tags/valine表情/"
           },
           {
             "name": "Speak",
