@@ -21,24 +21,6 @@ jobs:
         with:
           fetch-depth: 0
       
-      - name: Install coscmd
-        run: sudo pip install coscmd
-      
-      - name: Configure coscmd
-        env:
-          SECRET_ID: ${{ secrets.TENCENT_CLOUD_SECRET_ID }}
-          SECRET_KEY: ${{ secrets.TENCENT_CLOUD_SECRET_KEY }}
-          BUCKET: ${{ secrets.COS_BUCKET }}
-          REGION: ${{ secrets.COS_REGION }}
-        run: coscmd config -a $SECRET_ID -s $SECRET_KEY -b $BUCKET -r $REGION
-      
-      - name: Upyun login
-        uses: ffx0s/upx-actions@master
-        with:
-          bucket: ${{secrets.UPYUN_BUCKET}}
-          operator: ${{ secrets.UPYUN_OPERATOR }}
-          password: ${{ secrets.UPYUN_PASSWORD }}
-      
       - name: Sync to Gitee
         uses: wearerequired/git-mirror-action@master
         env:
@@ -59,6 +41,26 @@ jobs:
           gitee-password: ${{ secrets.GITEE_PASSWORD }}
           # 注意替换为你的 Gitee 仓库
           gitee-repo: kkfive/kkfive
+      
+      - name: Install coscmd
+        run: sudo pip install coscmd
+      
+      - name: Configure coscmd
+        env:
+          SECRET_ID: ${{ secrets.TENCENT_CLOUD_SECRET_ID }}
+          SECRET_KEY: ${{ secrets.TENCENT_CLOUD_SECRET_KEY }}
+          BUCKET: ${{ secrets.COS_BUCKET }}
+          REGION: ${{ secrets.COS_REGION }}
+        run: coscmd config -a $SECRET_ID -s $SECRET_KEY -b $BUCKET -r $REGION
+      
+      - name: Upyun login
+        uses: ffx0s/upx-actions@master
+        with:
+          bucket: ${{secrets.UPYUN_BUCKET}}
+          operator: ${{ secrets.UPYUN_OPERATOR }}
+          password: ${{ secrets.UPYUN_PASSWORD }}
+      
+
       
 #       - name: 上传到cos
 #         run: coscmd upload -rfs --delete ./ / --ignore "./.git/*"
