@@ -1,5 +1,4 @@
 [小康博客](https://www.antmoe.com)更新说明
 
-1. ~~添加[hexo-hash](https://github.com/Lete114/Hexo-hash)插件~~（无用，注释）
-2. 全局替换域名`7.dusays.com`为`bu.dusays.com`
-3. 全局替换域名`rmt.ladydaily.com`为`dogefs.s3.ladydaily.com`
+1. 再次开启 service worker,感谢[乐特](https://blog.imlete.cn/article/Service-Worker-Preferred-Request-Resource.html)和[chenyfan](https://blog.cyfan.top/p/c0af86bb.html)
+2. 调整[手册页面](https://www.antmoe.com/posts/3b43914f/)，重新调整常用的标签
