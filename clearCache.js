@@ -64,9 +64,9 @@ function tencent() {
 }
 
 async function main() {
-  const upyunResult = await upyun()
+  // const upyunResult = await upyun()
   const tencentResult = await tencent()
-  console.log(upyunResult)
+  // console.log(upyunResult)
   console.log(tencentResult)
 }
 main()
