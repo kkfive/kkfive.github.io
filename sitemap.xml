@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>https://www.antmoe.com/friends/index.html</loc>
+    
+    <lastmod>2022-07-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.antmoe.com/iconfont/index.html</loc>
     
     <lastmod>2022-07-17</lastmod>
@@ -156,6 +165,15 @@
   
   <url>
     <loc>https://www.antmoe.com/posts/d091c99b/</loc>
+    
+    <lastmod>2022-07-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.antmoe.com/posts/c765ad20/</loc>
     
     <lastmod>2022-07-17</lastmod>
     
@@ -587,15 +605,6 @@
   </url>
   
   <url>
-    <loc>https://www.antmoe.com/artalk.json</loc>
-    
-    <lastmod>2022-07-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.antmoe.com/about/index.html</loc>
     
     <lastmod>2022-07-17</lastmod>
@@ -641,15 +650,6 @@
   </url>
   
   <url>
-    <loc>https://www.antmoe.com/friends/index.html</loc>
-    
-    <lastmod>2022-07-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.antmoe.com/contact/index.html</loc>
     
     <lastmod>2022-07-17</lastmod>
@@ -677,15 +677,6 @@
   </url>
   
   <url>
-    <loc>https://www.antmoe.com/posts/c765ad20/</loc>
-    
-    <lastmod>2022-07-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.antmoe.com/posts/1704d83c/</loc>
     
     <lastmod>2022-07-17</lastmod>
@@ -696,6 +687,15 @@
   
   <url>
     <loc>https://www.antmoe.com/posts/51b0fa77/</loc>
+    
+    <lastmod>2022-07-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.antmoe.com/posts/4b1b8c9f/</loc>
     
     <lastmod>2022-07-17</lastmod>
     
@@ -732,15 +732,6 @@
   
   <url>
     <loc>https://www.antmoe.com/posts/b7924c1d/</loc>
-    
-    <lastmod>2022-07-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.antmoe.com/posts/4b1b8c9f/</loc>
     
     <lastmod>2022-07-17</lastmod>
     
