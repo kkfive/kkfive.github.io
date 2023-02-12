@@ -112,7 +112,7 @@ jobs:
         run: |
           yarn install
           node clearCache.js
-          node sync-message.js
+          # node sync-message.js
       
       - name: Delete workflow runs
         uses: Mattraks/delete-workflow-runs@v2
