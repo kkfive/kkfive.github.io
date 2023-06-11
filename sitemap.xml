@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>https://blog.antmoe.com/iconfont/index.html</loc>
+    
+    <lastmod>2023-06-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.antmoe.com/music/index.html</loc>
     
     <lastmod>2023-06-11</lastmod>
@@ -30,6 +39,15 @@
   
   <url>
     <loc>https://blog.antmoe.com/tags/index.html</loc>
+    
+    <lastmod>2023-06-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.antmoe.com/love-old/eat/index.html</loc>
     
     <lastmod>2023-06-11</lastmod>
     
@@ -65,15 +83,6 @@
   </url>
   
   <url>
-    <loc>https://blog.antmoe.com/photo/post/index.html</loc>
-    
-    <lastmod>2023-06-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.antmoe.com/photo/memory/index.html</loc>
     
     <lastmod>2023-06-11</lastmod>
@@ -83,7 +92,61 @@
   </url>
   
   <url>
+    <loc>https://blog.antmoe.com/photo/post/index.html</loc>
+    
+    <lastmod>2023-06-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.antmoe.com/photo/wallpaper/index.html</loc>
+    
+    <lastmod>2023-06-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.antmoe.com/posts/b17c410c/</loc>
+    
+    <lastmod>2023-06-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.antmoe.com/posts/4e836006/</loc>
+    
+    <lastmod>2023-06-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.antmoe.com/posts/58a62380/</loc>
+    
+    <lastmod>2023-06-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.antmoe.com/posts/d874bc69/</loc>
+    
+    <lastmod>2023-06-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.antmoe.com/posts/90329fd0/</loc>
     
     <lastmod>2023-06-11</lastmod>
     
@@ -138,69 +201,6 @@
   
   <url>
     <loc>https://blog.antmoe.com/friends-beta/index.html</loc>
-    
-    <lastmod>2023-06-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.antmoe.com/iconfont/index.html</loc>
-    
-    <lastmod>2023-06-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.antmoe.com/love-old/eat/index.html</loc>
-    
-    <lastmod>2023-06-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.antmoe.com/posts/b17c410c/</loc>
-    
-    <lastmod>2023-06-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.antmoe.com/posts/4e836006/</loc>
-    
-    <lastmod>2023-06-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.antmoe.com/posts/58a62380/</loc>
-    
-    <lastmod>2023-06-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.antmoe.com/posts/d874bc69/</loc>
-    
-    <lastmod>2023-06-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.antmoe.com/posts/90329fd0/</loc>
     
     <lastmod>2023-06-11</lastmod>
     
