@@ -6,7 +6,7 @@ const tentcentSecretId = process.env.TENCENT_SECRET_ID
 const tentcentSecretKey = process.env.TENCENT_SECRET_KEY
 
 const CdnClient = tencentcloud.cdn.v20180606.Client
-const path = ['https://www.antmoe.com/*']
+const path = ['https://blog.antmoe.com/*']
 
 function upyun() {
   new Promise((resolve, reject) => {

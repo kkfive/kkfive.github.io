@@ -1,1 +1,1 @@
-Sitemap: https://www.antmoe.com/baidusitemap.xml
+Sitemap: https://blog.antmoe.com/baidusitemap.xml
