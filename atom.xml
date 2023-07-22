@@ -6,7 +6,7 @@
   <link href="https://blog.antmoe.com/atom.xml" rel="self"/>
   
   <link href="https://blog.antmoe.com/"/>
-  <updated>2023-07-16T14:20:48.672Z</updated>
+  <updated>2023-07-22T07:04:25.879Z</updated>
   <id>https://blog.antmoe.com/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>JavaScript的大山：闭包和作用域链</title>
     <link href="https://blog.antmoe.com/posts/90329fd0/"/>
     <id>https://blog.antmoe.com/posts/90329fd0/</id>
-    <published>2023-07-16T14:20:48.672Z</published>
-    <updated>2023-07-16T14:20:48.672Z</updated>
+    <published>2023-07-22T07:04:25.879Z</published>
+    <updated>2023-07-22T07:04:25.879Z</updated>
     
     
       
@@ -211,48 +211,44 @@
   </entry>
   
   <entry>
-    <title>基于Docker安装之安装友链朋友圈爬虫</title>
-    <link href="https://blog.antmoe.com/posts/9a1d6e25/"/>
-    <id>https://blog.antmoe.com/posts/9a1d6e25/</id>
-    <published>2022-03-27T08:19:26.000Z</published>
-    <updated>2022-03-27T08:19:26.000Z</updated>
+    <title>关于&quot;反代&quot;JSD这件事</title>
+    <link href="https://blog.antmoe.com/posts/abeb101d/"/>
+    <id>https://blog.antmoe.com/posts/abeb101d/</id>
+    <published>2022-03-25T04:27:00.000Z</published>
+    <updated>2022-03-25T04:27:00.000Z</updated>
     
     
-    <summary type="html">通过docker-compose快速部署友链朋友圈爬虫</summary>
+    <summary type="html">通过dogecloud&quot;反代&quot;jsdelivr。</summary>
     
     
     
-    <category term="经验记录" scheme="https://blog.antmoe.com/categories/%E7%BB%8F%E9%AA%8C%E8%AE%B0%E5%BD%95/"/>
+    <category term="Project" scheme="https://blog.antmoe.com/categories/Project/"/>
     
-    <category term="基于docker安装" scheme="https://blog.antmoe.com/categories/%E7%BB%8F%E9%AA%8C%E8%AE%B0%E5%BD%95/%E5%9F%BA%E4%BA%8Edocker%E5%AE%89%E8%A3%85/"/>
+    <category term="jsd-proxy" scheme="https://blog.antmoe.com/categories/Project/jsd-proxy/"/>
     
     
-    <category term="docker安装" scheme="https://blog.antmoe.com/tags/docker%E5%AE%89%E8%A3%85/"/>
-    
-    <category term="友链朋友圈" scheme="https://blog.antmoe.com/tags/%E5%8F%8B%E9%93%BE%E6%9C%8B%E5%8F%8B%E5%9C%88/"/>
+    <category term="Hexo" scheme="https://blog.antmoe.com/tags/Hexo/"/>
     
   </entry>
   
   <entry>
-    <title>基于Docker安装之Typecho博客</title>
-    <link href="https://blog.antmoe.com/posts/d0568943/"/>
-    <id>https://blog.antmoe.com/posts/d0568943/</id>
-    <published>2022-03-27T06:19:26.000Z</published>
-    <updated>2022-03-27T06:19:26.000Z</updated>
+    <title>我的Hexo“自动化”之道</title>
+    <link href="https://blog.antmoe.com/posts/41164f83/"/>
+    <id>https://blog.antmoe.com/posts/41164f83/</id>
+    <published>2022-03-11T13:16:00.000Z</published>
+    <updated>2022-03-25T02:29:00.000Z</updated>
     
     
-    <summary type="html">使用docker安装Typecho博客</summary>
+    <summary type="html">Hexo自动化实现，整体流程不输动态博客。</summary>
     
     
     
-    <category term="经验记录" scheme="https://blog.antmoe.com/categories/%E7%BB%8F%E9%AA%8C%E8%AE%B0%E5%BD%95/"/>
+    <category term="Hexo" scheme="https://blog.antmoe.com/categories/Hexo/"/>
     
-    <category term="基于docker安装" scheme="https://blog.antmoe.com/categories/%E7%BB%8F%E9%AA%8C%E8%AE%B0%E5%BD%95/%E5%9F%BA%E4%BA%8Edocker%E5%AE%89%E8%A3%85/"/>
+    <category term="优雅部署" scheme="https://blog.antmoe.com/categories/Hexo/%E4%BC%98%E9%9B%85%E9%83%A8%E7%BD%B2/"/>
     
     
-    <category term="docker安装" scheme="https://blog.antmoe.com/tags/docker%E5%AE%89%E8%A3%85/"/>
-    
-    <category term="Typecho" scheme="https://blog.antmoe.com/tags/Typecho/"/>
+    <category term="Hexo" scheme="https://blog.antmoe.com/tags/Hexo/"/>
     
   </entry>
   

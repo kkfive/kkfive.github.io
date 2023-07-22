@@ -15,14 +15,14 @@
     <atom:link href="https://blog.antmoe.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>一个收藏回忆与分享技术的地方！</description>
-    <pubDate>Sun, 16 Jul 2023 14:20:48 GMT</pubDate>
+    <pubDate>Sat, 22 Jul 2023 07:04:25 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
       <title>JavaScript的大山：闭包和作用域链</title>
       <link>https://blog.antmoe.com/posts/90329fd0/</link>
       <guid>https://blog.antmoe.com/posts/90329fd0/</guid>
-      <pubDate>Sun, 16 Jul 2023 14:20:48 GMT</pubDate>
+      <pubDate>Sat, 22 Jul 2023 07:04:25 GMT</pubDate>
       
         
         
@@ -229,52 +229,48 @@
     </item>
     
     <item>
-      <title>基于Docker安装之安装友链朋友圈爬虫</title>
-      <link>https://blog.antmoe.com/posts/9a1d6e25/</link>
-      <guid>https://blog.antmoe.com/posts/9a1d6e25/</guid>
-      <pubDate>Sun, 27 Mar 2022 08:19:26 GMT</pubDate>
+      <title>关于&quot;反代&quot;JSD这件事</title>
+      <link>https://blog.antmoe.com/posts/abeb101d/</link>
+      <guid>https://blog.antmoe.com/posts/abeb101d/</guid>
+      <pubDate>Fri, 25 Mar 2022 04:27:00 GMT</pubDate>
       
-      <description>通过docker-compose快速部署友链朋友圈爬虫</description>
-      
-      
+      <description>通过dogecloud&quot;反代&quot;jsdelivr。</description>
       
       
-      <category domain="https://blog.antmoe.com/categories/%E7%BB%8F%E9%AA%8C%E8%AE%B0%E5%BD%95/">经验记录</category>
-      
-      <category domain="https://blog.antmoe.com/categories/%E7%BB%8F%E9%AA%8C%E8%AE%B0%E5%BD%95/%E5%9F%BA%E4%BA%8Edocker%E5%AE%89%E8%A3%85/">基于docker安装</category>
       
       
-      <category domain="https://blog.antmoe.com/tags/docker%E5%AE%89%E8%A3%85/">docker安装</category>
+      <category domain="https://blog.antmoe.com/categories/Project/">Project</category>
       
-      <category domain="https://blog.antmoe.com/tags/%E5%8F%8B%E9%93%BE%E6%9C%8B%E5%8F%8B%E5%9C%88/">友链朋友圈</category>
+      <category domain="https://blog.antmoe.com/categories/Project/jsd-proxy/">jsd-proxy</category>
       
       
-      <comments>https://blog.antmoe.com/posts/9a1d6e25/#disqus_thread</comments>
+      <category domain="https://blog.antmoe.com/tags/Hexo/">Hexo</category>
+      
+      
+      <comments>https://blog.antmoe.com/posts/abeb101d/#disqus_thread</comments>
       
     </item>
     
     <item>
-      <title>基于Docker安装之Typecho博客</title>
-      <link>https://blog.antmoe.com/posts/d0568943/</link>
-      <guid>https://blog.antmoe.com/posts/d0568943/</guid>
-      <pubDate>Sun, 27 Mar 2022 06:19:26 GMT</pubDate>
+      <title>我的Hexo“自动化”之道</title>
+      <link>https://blog.antmoe.com/posts/41164f83/</link>
+      <guid>https://blog.antmoe.com/posts/41164f83/</guid>
+      <pubDate>Fri, 11 Mar 2022 13:16:00 GMT</pubDate>
       
-      <description>使用docker安装Typecho博客</description>
-      
-      
+      <description>Hexo自动化实现，整体流程不输动态博客。</description>
       
       
-      <category domain="https://blog.antmoe.com/categories/%E7%BB%8F%E9%AA%8C%E8%AE%B0%E5%BD%95/">经验记录</category>
-      
-      <category domain="https://blog.antmoe.com/categories/%E7%BB%8F%E9%AA%8C%E8%AE%B0%E5%BD%95/%E5%9F%BA%E4%BA%8Edocker%E5%AE%89%E8%A3%85/">基于docker安装</category>
       
       
-      <category domain="https://blog.antmoe.com/tags/docker%E5%AE%89%E8%A3%85/">docker安装</category>
+      <category domain="https://blog.antmoe.com/categories/Hexo/">Hexo</category>
       
-      <category domain="https://blog.antmoe.com/tags/Typecho/">Typecho</category>
+      <category domain="https://blog.antmoe.com/categories/Hexo/%E4%BC%98%E9%9B%85%E9%83%A8%E7%BD%B2/">优雅部署</category>
       
       
-      <comments>https://blog.antmoe.com/posts/d0568943/#disqus_thread</comments>
+      <category domain="https://blog.antmoe.com/tags/Hexo/">Hexo</category>
+      
+      
+      <comments>https://blog.antmoe.com/posts/41164f83/#disqus_thread</comments>
       
     </item>
     
