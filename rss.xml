@@ -15,14 +15,14 @@
     <atom:link href="https://blog.antmoe.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>一个收藏回忆与分享技术的地方！</description>
-    <pubDate>Sat, 22 Jul 2023 07:04:25 GMT</pubDate>
+    <pubDate>Sat, 22 Jul 2023 08:50:06 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
       <title>JavaScript的大山：闭包和作用域链</title>
       <link>https://blog.antmoe.com/posts/90329fd0/</link>
       <guid>https://blog.antmoe.com/posts/90329fd0/</guid>
-      <pubDate>Sat, 22 Jul 2023 07:04:25 GMT</pubDate>
+      <pubDate>Sat, 22 Jul 2023 08:50:06 GMT</pubDate>
       
         
         
@@ -44,6 +44,35 @@
       
       
       <comments>https://blog.antmoe.com/posts/90329fd0/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>聊一聊个人生产力中的那些 APP</title>
+      <link>https://blog.antmoe.com/posts/f1773c1b/</link>
+      <guid>https://blog.antmoe.com/posts/f1773c1b/</guid>
+      <pubDate>Sat, 22 Jul 2023 07:32:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description></description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.antmoe.com/categories/%E7%BB%8F%E9%AA%8C%E8%AE%B0%E5%BD%95/">经验记录</category>
+      
+      <category domain="https://blog.antmoe.com/categories/%E7%BB%8F%E9%AA%8C%E8%AE%B0%E5%BD%95/%E7%94%9F%E4%BA%A7%E5%8A%9B/">生产力</category>
+      
+      
+      <category domain="https://blog.antmoe.com/tags/APP%E6%8E%A8%E8%8D%90/">APP推荐</category>
+      
+      
+      <comments>https://blog.antmoe.com/posts/f1773c1b/#disqus_thread</comments>
       
     </item>
     
@@ -248,29 +277,6 @@
       
       
       <comments>https://blog.antmoe.com/posts/abeb101d/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>我的Hexo“自动化”之道</title>
-      <link>https://blog.antmoe.com/posts/41164f83/</link>
-      <guid>https://blog.antmoe.com/posts/41164f83/</guid>
-      <pubDate>Fri, 11 Mar 2022 13:16:00 GMT</pubDate>
-      
-      <description>Hexo自动化实现，整体流程不输动态博客。</description>
-      
-      
-      
-      
-      <category domain="https://blog.antmoe.com/categories/Hexo/">Hexo</category>
-      
-      <category domain="https://blog.antmoe.com/categories/Hexo/%E4%BC%98%E9%9B%85%E9%83%A8%E7%BD%B2/">优雅部署</category>
-      
-      
-      <category domain="https://blog.antmoe.com/tags/Hexo/">Hexo</category>
-      
-      
-      <comments>https://blog.antmoe.com/posts/41164f83/#disqus_thread</comments>
       
     </item>
     

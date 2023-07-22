@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://blog.antmoe.com/posts/284f2e1c/</loc>
-    <lastmod>2023-07-22</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.antmoe.com/posts/d874bc69/</loc>
-    <lastmod>2023-07-22</lastmod>
-  </url>
-  <url>
     <loc>https://blog.antmoe.com/posts/90329fd0/</loc>
     <lastmod>2023-07-22</lastmod>
   </url>
@@ -18,6 +10,18 @@
   </url>
   <url>
     <loc>https://blog.antmoe.com/posts/80c43671/</loc>
+    <lastmod>2023-07-22</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.antmoe.com/posts/284f2e1c/</loc>
+    <lastmod>2023-07-22</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.antmoe.com/posts/d874bc69/</loc>
+    <lastmod>2023-07-22</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.antmoe.com/posts/f1773c1b/</loc>
     <lastmod>2023-07-22</lastmod>
   </url>
   <url>
